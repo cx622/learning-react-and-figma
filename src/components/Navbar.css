@@ -11,17 +11,20 @@
   letter-spacing: -0.06rem;
 }
 nav {
-  width: 100%;
+  width: 101%;
   height: 3.5625rem;
   flex-shrink: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 5rem;
+  margin-left: -2px;
   position:sticky;
   top:0;
-  backdrop-filter:7px;
-  background-color: rgba(1,1,1,0.4);
+  backdrop-filter:8px;
+  background-color: #111111;
+  overflow-x: clip;
+  z-index: 9;
 }
 #navigation {
   width: 22.0625rem;
